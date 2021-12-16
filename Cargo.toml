@@ -1,0 +1,14 @@
+[package]
+name = "processkeeper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.23.0"
+signal-hook = "0.3.12"
+ctrlc = "3.2.1"
+subprocess = { version = "0.2"}
+clap = {version = "2.34.0"}
+daemonize = {version = "0.4"}
